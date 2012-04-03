@@ -1,0 +1,24 @@
+#sdk: "C:/RhoStudio/ruby/lib/ruby/gems/1.8/gems/rhodes-3.3.1"
+sdkversion: 3.3.0
+name: RhodesApplication2test
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.rhodesapplication2test
+  BundleURLScheme: rhodesapplication2test
+wp:
+  productid: '0fd10690-5a5a-012f-19d1-00953bb8bb02'
+symbian:
+  uid: '0xe300ba57'
+android:
+  version: 2.1
+
+extensions: ["json", "another-extension"]
